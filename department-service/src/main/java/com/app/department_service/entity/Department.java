@@ -9,12 +9,14 @@ import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import lombok.ToString;
 
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 @Table(name = "departments" )
 @Entity
+@ToString
 public class Department {
 	
 	@Id
